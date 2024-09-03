@@ -1,0 +1,84 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(350, 100%, 98%);
+}
+
+#container {
+  background-color: white;
+  min-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(160, 125, 131, 0.3);
+}
+
+h1 {
+  color: hsl(350, 100%, 78%);
+}
+
+button {
+  font-size: 5rem;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 250px;
+  cursor: pointer;
+  background-color: hsl(350, 100%, 90%);
+}
+
+button:hover {
+  background-color: hsl(350, 100%, 80%);
+}
+
+button:active {
+  background-color: hsl(350, 100%, 95%);
+}
+
+#playerDisplay,
+#computerDisplay,
+.scoreDisplay,
+.result {
+  margin: 0px;
+  font-size: 1.5rem;
+  color: hsl(351, 33%, 36%);
+  font-weight: bold;
+}
+
+#resultDisplay {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+#score-container {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreDisplay {
+  margin: 0;
+}
+
+#playerScoreDisplay,
+#computerScoreDisplay {
+  color: hsl(337, 95%, 40%);
+}
+
+.redText {
+  color: hsl(0, 100%, 51%);
+}
+
+.greenText {
+  color: hsl(120, 88%, 77%);
+}
