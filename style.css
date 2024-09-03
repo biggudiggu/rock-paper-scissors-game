@@ -49,7 +49,7 @@ button:active {
 .result {
   margin: 0px;
   font-size: 1.5rem;
-  color: hsl(351, 33%, 36%);
+  color: rgb(55, 42, 45);
   font-weight: bold;
 }
 
@@ -73,8 +73,8 @@ button:active {
 #playerScoreDisplay,
 #computerScoreDisplay,
 #playerMove,
-#computerMove {
-  color: hsl(337, 98%, 65%);
+#computerMove, .result {
+  color: hsl(351, 83%, 77%);
 }
 
 .redText {
